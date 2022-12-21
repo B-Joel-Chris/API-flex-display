@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+.container{
+    width: 80%;
+    background-color:#282A3A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -10px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.infograph{
+    
+    height: 250px;
+    flex: 0 0 240px;
+    margin: 10px 30px;
+    background-color: rgb(255, 253, 251);
+    border-radius: 10px;
+}
+
+.infograph img{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+}
+
+.namep{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+.emailp{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.phonep{
+    text-align: center;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.cityp{
+    text-align: center;
+    font-weight: lighter;
+}
+.infodata>*{
+    padding: 5px;
+}
+
+
+
+.picdiv{
+    margin: 10px;
+}
